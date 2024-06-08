@@ -1,5 +1,7 @@
 # pygate
-pygate is a wrapped API functions adapted to be used in a pythonic way for AnaGate libraries including. The AnaGate product line consists of several hardware devices that offer access to different bus systems (I2C, SPI, CAN). The AnaGate device provides its functionality as a TCP server, creating a socket with its IP address and a device-specific port number. Access to the various models of the AnaGate product line is always performed via the widely used network protocol TCP . However, the library interface of the AnaGate API is implemented in the programming language C ([Chapter 3. Common function reference](http://www.anagate.de/download/Manual-AnaGateAPI2-en.pdf) ) which make it challenging for Python users.
+PyGate is a wrapped API providing functions adapted for use in a Pythonic manner with AnaGate libraries. The AnaGate product line comprises various hardware devices offering access to different bus systems (such as I2C, SPI, CAN). An AnaGate device functions as a TCP server, establishing a socket with its IP address and a device-specific port number. Access to the different models of the AnaGate product line is consistently achieved through the widely used TCP network protocol.
+
+However, the library interface of the AnaGate API is implemented in the programming language C ([Chapter 3. Common function reference](http://www.anagate.de/download/Manual-AnaGateAPI2-en.pdf)), presenting a challenge for Python users.
 
 ## Package Structure
 1. The directory [/AnagateCAN/AnaGateAPI-CAN-1.11-2.13](https://github.com/ahmedqamesh/AnagateCAN/tree/master/AnaGateAPI-CAN-1.11-2.13) includes:</br>
